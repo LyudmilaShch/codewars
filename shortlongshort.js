@@ -1,10 +1,11 @@
 //???
 function solution(a, b){
-    let short = a.length < b.length ? a : b;
-    let long = a.length > b.length ? a : b;
-    
-    return short + long + short;
-  }
+  let short = String(a).length < String(b).length ? a : b;
+  let long = String(a).length > String(b).length ? a : b;
+  
+  return short + '' + long + '' + short;
+}
+console.log(solution(25, 1));
 
 //Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty ( zero length ).
 //Hint for R users:
