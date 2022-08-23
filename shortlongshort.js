@@ -1,4 +1,3 @@
-//???
 function solution(a, b){
   let short = String(a).length < String(b).length ? a : b;
   let long = String(a).length > String(b).length ? a : b;
