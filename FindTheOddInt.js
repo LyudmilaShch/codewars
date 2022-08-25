@@ -24,4 +24,4 @@ Examples
 /*var a = a.map( s => s.length );
 тоже самое, что и 
 var a = a.map(function(s){ return s.length } );
-
+*/
