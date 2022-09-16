@@ -14,3 +14,9 @@ function boolToWord( bool ) {
     return (bool === true) ? "Yes" : "No";
     }
    console.log(boolToWord(false)); //Второй способ
+
+
+   //boolean перевести в string
+   function booleanToString(b){
+    return b.toString();
+  }
